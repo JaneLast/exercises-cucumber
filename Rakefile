@@ -1,3 +1,4 @@
-task :tests do
-  system 'rspec'
-end
+#rakefile
+require 'cucumber/rake/task'
+
+Cucumber::Rake::Task.new
